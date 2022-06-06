@@ -1,7 +1,6 @@
-const rect = {
-	perimeter: (x, y) => (2*(x+y)),
-	area: (x, y) => (x*y)
-};
+const rect = require('./rectangle');
+
+
 
 const solveRect = (l,b) => {
     console.log("Solving for rectangle with l = " + l + " and b = " + b);
@@ -19,3 +18,9 @@ solveRect(2,4);
 solveRect(3,5);
 solveRect(0,5);
 solveRect(-3,5);
+
+
+
+/////////./rectangle.js
+// exports.perimeter =  (x, y) => (2*(x+y));
+// exports.area = (x, y) => (x*y);
